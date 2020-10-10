@@ -50,8 +50,8 @@ func main() {
 	}
 
 	cluster.Authenticate(gocb.PasswordAuthenticator{
-		Username: "kbr03231",
-		Password: "!@#$Uga1234",
+		Username: "It's a Secret",
+		Password: "It's a Secret",
 	})
 
 	bucket, err = cluster.OpenBucket("philbucket", "")
